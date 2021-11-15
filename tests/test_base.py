@@ -4,7 +4,7 @@ Created Date: Tuesday October 26th 2021 - 01:33pm
 Author: Ammar Mian
 Contact: ammar.mian@univ-smb.fr
 -----
-Last Modified: Tue Oct 26 2021
+Last Modified: Mon Nov 15 2021
 Modified By: Ammar Mian
 -----
 Fichier regroupant les tests des questions
@@ -22,6 +22,8 @@ import unittest
 import numbers
 
 from Main import *
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
 import pygame
 import OpenGL.GL as gl
 
