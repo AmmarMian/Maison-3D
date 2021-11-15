@@ -22,8 +22,6 @@ import unittest
 import numbers
 
 from Main import *
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
 import pygame
 import OpenGL.GL as gl
 
